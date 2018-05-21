@@ -50,8 +50,10 @@ $Form.controls.AddRange(@($Button1,$TextBox1,$Label1,$ProgressBar1))
 
 
 #Write your logic code here
+#gets the date
 $TextBox1.Text = Get-Date
 
+#quick example ignore this
 $Button1.Add_Click({ $Label1.Text = "The Date is $($TextBox1.Text)" })
 
 
