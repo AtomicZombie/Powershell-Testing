@@ -3,6 +3,6 @@ $processes = Get-Process
 $processes
 foreach ($process in $processes){
 
- Write-Host "Test $($proess.Id)"
+ Write-Host "Test $($process.ProcessName)"
 }
 Write-host 'b'
